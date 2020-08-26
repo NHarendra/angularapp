@@ -3,6 +3,7 @@ import {MovieListComponent} from './movie-list.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import fetchMock from 'fetch-mock';
 import {ChangeDetectionStrategy} from '@angular/core';
+import { HttpTestingController, HttpClientTestingModule } from '@angular/common/http/testing'
 
 
 describe('MovieListComponent', () => {
@@ -28,7 +29,7 @@ describe('MovieListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [FormsModule, ReactiveFormsModule],
+      imports: [FormsModule, ReactiveFormsModule,HttpClientTestingModule],
       declarations: [MovieListComponent]
     })
       .overrideComponent(MovieListComponent, {
