@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2020-08-26T00:46:45" id="0" hostname="workspaceuhwkclq0wp6x0uku.ws-6c87f9b4d7-xqnsr" tests="4" errors="1" failures="4" time="1.803">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="MovieListComponent Should render the Initial UI" time="0.06" classname=".MovieListComponent">
+    <failure type="">Error: Expected &lt;div _ngcontent-a-c40 data-test-id="no-result" class="mt-50 slide-up-fade-in"&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:54:38
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+</failure>
+    <failure type="">Error: Expected &lt;ul _ngcontent-a-c40 data-test-id="movieList" class="mt-50 styled"&gt;...&lt;/ul&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:55:38
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:74:1
+</failure>
+  </testcase>
+  <testcase name="MovieListComponent Should search and render the movies - 2" time="0.697" classname=".MovieListComponent">
+    <failure type="">Error: Expected false to be true.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:133:88
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Error: Expected 1 to equal 5.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:134:41
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Error: Expected '' to equal 'A Mind Devoid of Happiness or: The Maze'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:135:54
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Uncaught TypeError: Cannot read property 'innerHTML' of undefined thrown
+</failure>
+  </testcase>
+  <testcase name="MovieListComponent Should search and render the movies - 1" time="0.528" classname=".MovieListComponent">
+    <failure type="">Error: Expected false to be true.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:92:88
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Error: Expected 1 to equal 2.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:94:41
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Error: Expected '' to equal 'The Death of Spiderman'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:95:54
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Uncaught TypeError: Cannot read property 'innerHTML' of undefined thrown
+</failure>
+  </testcase>
+  <testcase name="MovieListComponent Should show No Results Found when there are no results from API" time="0.518" classname=".MovieListComponent">
+    <failure type="">Error: Expected false to be true.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:66:88
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Error: Expected &lt;ul _ngcontent-a-c43 data-test-id="movieList" class="mt-50 styled"&gt;...&lt;/ul&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:67:40
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+    <failure type="">Error: Expected '' to equal 'No Results Found'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/movie-list/movie-list.component.spec.ts:69:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
